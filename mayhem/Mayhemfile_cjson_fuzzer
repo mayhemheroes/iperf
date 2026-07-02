@@ -1,0 +1,6 @@
+project: iperf
+target: cjson_fuzzer
+cmds:
+  - cmd: /mayhem/cjson_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/cjson_fuzzer.dict

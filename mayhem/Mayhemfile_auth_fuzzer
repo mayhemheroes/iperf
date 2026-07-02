@@ -1,0 +1,5 @@
+project: iperf
+target: auth_fuzzer
+cmds:
+  - cmd: /mayhem/auth_fuzzer
+    libfuzzer: true
